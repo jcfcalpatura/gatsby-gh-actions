@@ -1,8 +1,8 @@
 {
-  "name": "web3studio",
+  "name": "gatsby-gh-ci",
   "version": "1.0.0",
   "private": true,
-  "description": "web3Studio",
+  "description": "gatsby-gh-ci",
   "author": "Jairus Calpatura",
   "keywords": [
     "gatsby"

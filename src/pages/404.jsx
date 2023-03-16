@@ -7,7 +7,7 @@ const Page404 = () => (
       <title>404</title>
       <div>
         <h1>404</h1>
-        <Link to="/"> Go Back</Link>
+        <Link to="/">Go Back</Link>
       </div>
     </main>
   </>
