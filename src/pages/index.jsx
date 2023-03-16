@@ -8,7 +8,7 @@ const IndexPage = () => (
       <title>Gatsby Site</title>
       <div>
         <h1>Hello World!</h1>
-        <PrivacyPolicyButton href="/privacy-policy/" />
+        <PrivacyPolicyButton href="privacy-policy/" />
       </div>
     </main>
   </>
