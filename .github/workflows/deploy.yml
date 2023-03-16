@@ -34,9 +34,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build
-    # artifacts:
-    #   paths:
-    #     - public
+    artifacts:
+      paths:
+        - public
 
   deploy:
     runs-on: ubuntu-latest
