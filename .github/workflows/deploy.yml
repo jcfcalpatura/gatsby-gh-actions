@@ -9,11 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [19.x]
-
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -22,13 +20,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm test
+
   build:
     runs-on: ubuntu-latest
-    
     strategy:
       matrix:
         node-version: [19.x]
-
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -40,6 +37,7 @@ jobs:
       artifacts:
         paths:
          - public
+
   deploy:
     runs-on: ubuntu-latest
     steps:
