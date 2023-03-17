@@ -22,37 +22,6 @@ main#home-page {
   background-size: auto 54.125rem, auto 54.125rem;
 }
 
-section#learn-more:before,
-section#about-us:before,
-section#faqs:before {
-  padding-top: 6rem;
-  margin-top: -6rem;
-  content: '';
-  display: block;
-}
-
-#home-page #hero .hero-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 50rem;
-}
-
-#home-page #hero .illustration {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-#home-page .illustration {
-  height: auto;
-  width: 100%;
-}
-
-#home-page #learn-more .h3-icon {
-  height: 65px;
-  width: 54px;
-}
-
 img,
 svg {
   vertical-align: middle;
@@ -82,40 +51,10 @@ h3 {
   }
 }
 
-#privacy-policy a {
-  color: #2e3338;
-}
-
-//form
-.google-form-embed {
-  height: 140rem;
-  width: 95vw;
-  @media (min-width: 576px) {
-    height: 135rem;
-    width: 30rem;
-  }
-  @media (min-width: 768px) {
-    height: 150rem;
-    width: 40rem;
-  }
-}
-
-//navbar
-// .navbar-collapse {
-//   background-color: #ffffff;
-// }
-.navbar-light .navbar-brand,
-.navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-nav .nav-link {
-  color: #2e3338;
-}
-
-.navbar-light .navbar-nav .nav-link.active {
-  color: rgb(88, 88, 88);
-}
-
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: rgba(46, 51, 56, 0.8);
+main#demo-page {
+  color: #afffff;
+  background-image: url('../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh
 }
