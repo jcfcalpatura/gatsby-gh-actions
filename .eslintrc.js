@@ -9,6 +9,9 @@ module.exports = {
     'airbnb',
   ],
   overrides: [
+    {
+      files: ['**/*.js', '**/*.jsx'],
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',

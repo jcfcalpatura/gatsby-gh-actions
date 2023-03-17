@@ -6,7 +6,8 @@ const DemoPage = () => (
     <title>Demo Page</title>
     <div>
       <h1>Demo Page</h1>
-      <Link to="/">Go Back</Link>
+      <Link to="/">Go Back </Link>
+
     </div>
   </main>
 );
