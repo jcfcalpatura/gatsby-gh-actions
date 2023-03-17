@@ -12,7 +12,12 @@ module.exports = {
     description: 'Gatsby Site',
   },
   plugins: [
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+          indentedSyntax: true
+      },
+    }, 
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
