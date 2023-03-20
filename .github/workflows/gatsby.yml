@@ -17,6 +17,9 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read
+  contents: read
+  security-events: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
